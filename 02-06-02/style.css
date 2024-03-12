@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 100vh;
 }
 main {
     background-color: rgb(0, 151, 221);
@@ -10,6 +11,7 @@ main {
     width: 100%;
     padding: 1rem;
 }
+
 .card-row {
     background-color: rgb(79, 110, 170);
     display: flex;
@@ -23,9 +25,13 @@ main {
 }
 .hero-container {
     justify-content: center;
+    background-image: -moz-element();
 }
 .card {
     min-width: 18rem;
     flex: 1;
     padding: 1rem;
+}
+.card img {
+    width: 100%;
 }
