@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     min-height: 100vh;
 }
 main {
@@ -25,7 +25,6 @@ main {
 }
 .hero-container {
     justify-content: center;
-
 }
 .card {
     min-width: 18rem;
