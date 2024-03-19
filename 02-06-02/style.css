@@ -25,7 +25,7 @@ main {
 }
 .hero-container {
     justify-content: center;
-    background-image: -moz-element();
+
 }
 .card {
     min-width: 18rem;
