@@ -4,6 +4,8 @@ body {
     align-items: center;
     min-height: 100vh;
     min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 main {
     background-color: rgb(0, 151, 221);
@@ -26,11 +28,31 @@ main {
 .hero-container {
     justify-content: center;
 }
+.card-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
 .card {
     min-width: 18rem;
     flex: 1;
     padding: 1rem;
+    background-color: rgb(39, 48, 104);
+    box-sizing: border-box;
 }
 .card img {
     width: 100%;
+    border-radius: 0.25rem;
+}
+.content {
+}
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+a.card:hover {
+    transform: scale(1.05);
+}
+a.card:active {
+    transform: scale(0.95);
 }
