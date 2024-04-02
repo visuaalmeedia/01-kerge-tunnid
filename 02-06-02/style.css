@@ -8,14 +8,14 @@ body {
     box-sizing: border-box;
 }
 main {
-    background-color: rgb(0, 151, 221);
+    background-color: rgb(87, 179, 222);
     max-width: 56rem;
     width: 100%;
     padding: 1rem;
 }
 
 .card-row {
-    background-color: rgb(79, 110, 170);
+    background-color: rgb(112, 132, 170);
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -37,15 +37,14 @@ main {
     min-width: 18rem;
     flex: 1;
     padding: 1rem;
-    background-color: rgb(39, 48, 104);
+    background-color: rgb(58, 63, 97);
     box-sizing: border-box;
 }
 .card img {
     width: 100%;
     border-radius: 0.25rem;
 }
-.content {
-}
+
 a.card {
     text-decoration: none;
     color: inherit;
