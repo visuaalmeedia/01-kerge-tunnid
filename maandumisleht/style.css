@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(44, 20, 3) width 100%;
+    padding: 1rem;
+}
+
+.card-row {
+    background-color: rgb(12, 21, 37);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-container {
+    justify-content: center;
+}
+.card-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
+    padding: 1rem;
+    background-color: rgb(58, 63, 97);
+    box-sizing: border-box;
+}
+.card img {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+a.card:hover {
+    transform: scale(1.05);
+}
+a.card:active {
+    transform: scale(0.95);
+}
