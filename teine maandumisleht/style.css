@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     min-height: 100vh;
-    background-color: rgb(10, 0, 0);
+    background-color: rgb(3, 3, 24);
 }
 main {
     max-width: 56rem;
@@ -13,7 +13,7 @@ main {
 }
 
 .card-row {
-    background-color: rgb(22, 0, 0);
+    background-color: rgba(18, 26, 48, 0.663);
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -29,17 +29,23 @@ main {
 
 .card {
     min-width: 20rem;
-    flex: 1;
     padding: rem;
 }
 .card img {
     width: 100%;
     aspect-ratio: 2 / 2;
 }
-h3 {
-    color: rgb(207, 203, 198);
+h1 {
+    color: beige;
+    font-style: oblique;
 }
-
 h2 {
-    color: rgb(192, 186, 179);
+    color: beige;
+}
+h3 {
+    color: beige;
+    text-align: end;
+}
+h4 {
+    color: beige;
 }
